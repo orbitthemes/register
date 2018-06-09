@@ -1,0 +1,22 @@
+/*
+Theme Name: Register - Complete Signup Page
+Theme URI: https://www.orbitthemes.com
+Author: Sandeep Prasad Bhatt
+Author URI: http://www.sandeepbhatt.com.np
+Description: Register - A Complete Signup and Registration Page Template
+Create date: April 1, 2018
+Version: 1.0
+License: Commercial, All rights reserved - orbitthemes.com
+Tags: Responsive Bootstrap 4 template , bootstrap 4 starter template, bootstrap4 template, simple template
+Text Domain: orbitthemes.com
+*/
+
+#main {
+    background: $light-grey;
+    @include media-breakpoint-up(md) {
+        .field-label-responsive {
+            padding-top: 0.5rem;
+            text-align: right;
+        }
+    }
+}
